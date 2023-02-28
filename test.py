@@ -1,5 +1,10 @@
 if __name__ == "__main__":
     from ascii_magic import AsciiArt
+    import pokebase as pb
 
-    my_art = AsciiArt.from_image('images/moon.jpg')
-    my_art.to_terminal()
+    pokenumber = int(input('Enter pokemon number:\n'))
+    print(pokenumber)
+
+    sprite = pb.SpriteResource('pokemon', pokenumber)
+    displayed_art = AsciiArt.from_url(sprite.url)
+    displayed_art.to_terminal()
