@@ -5,4 +5,5 @@
 ### https://www.kaggle.com/datasets/arenagrenade/the-complete-pokemon-images-data-set?resource=download
 
 ## Will likely use this API
-### https://github.com/PokeAPI/pokebase
+### ~~https://github.com/PokeAPI/pokebase~~
+### yeah... so that's a bit too slow
